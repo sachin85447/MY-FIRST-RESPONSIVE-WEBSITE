@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/042d05c8ea.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    body::selection {
+        background-color: greenyellow;
+    }
+
+    .start {
+        position: relative;
+        width: 100%;
+        height: 75px;
+        background-color: cornsilk;
+    }
+
+    .mail {
+        position: absolute;
+        left: 180px;
+        font-size: 40px;
+        top: 16px;
+        color: rgb(228, 93, 44);
+    }
+
+    .us {
+        position: absolute;
+        left: 240px;
+        top: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 19px;
+        font-weight: 500;
+    }
+
+    .info {
+        position: absolute;
+        left: 240px;
+        top: 39px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        color: grey;
+    }
+
+    .cakezone {
+        position: absolute;
+        left: 550px;
+        background-color: rgb(255, 145, 0);
+        width: 500px;
+        height: 75px;
+    }
+
+    .cakezone2 {
+        position: absolute;
+        width: 460px;
+        height: 60px;
+        left: 20px;
+        top: 5px;
+        background-color: rgb(255, 145, 0);
+        border: 1px solid white;
+    }
+
+    .logocake {
+        position: absolute;
+        font-size: 37px;
+        left: 695px;
+        top: 14px;
+    }
+
+    .caketext {
+        position: absolute;
+        color: aliceblue;
+        font-size: 35px;
+        left: 740px;
+        top: 17px;
+        letter-spacing: -2px;
+        font-weight: 700;
+        font-family: sans-serif;
+    }
+
+    .phone {
+        position: absolute;
+        left: 1250px;
+        top: 20px;
+        font-size: 35px;
+        color: rgb(255, 145, 0);
+    }
+
+    .callus {
+        position: absolute;
+        left: 1290px;
+        top: 15px;
+        font-family: sans-serif;
+        font-weight: 700;
+        letter-spacing: -1px;
+    }
+
+    .phnumber {
+        position: absolute;
+        top: 39px;
+        font-family: sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        color: grey;
+        left: 80.5rem;
+    }
+
+    /* reponsivness of first 1st div*/
+    @media(max-width:400px) {
+
+        .mail,
+        .info,
+        .us {
+            display: none;
+        }
+
+        .start {
+            position: relative;
+            width: 100%;
+
+        }
+
+        .cakezone {
+            position: absolute;
+            left: 0px;
+            background-color: rgb(71, 67, 67);
+            height: 100px;
+            border-bottom: 3px solid rgb(233, 219, 212);
+            width: 100%;
+        }
+
+        .cakezone2 {
+            background-color: rgb(71, 67, 67);
+            margin-top: 10px;
+            border: none;
+            width: 100px;
+        }
+
+        .logocake {
+            position: absolute;
+            left: 30px;
+            color: rgb(255, 174, 0);
+            top: 20px;
+            font-size: 40px;
+        }
+
+        .caketext {
+            position: absolute;
+            left: 80px;
+            top: 20px;
+            font-size: 45px;
+            letter-spacing: -2px;
+        }
+
+        .callus,
+        .phone,
+        .phnumber {
+            display: none;
+        }
+    }
+
+    .main {
+        background-color: black;
+        height: 50px;
+        width: 100%;
+    }
+
+    .main ul {
+        margin-left: 520px;
+    }
+
+    .main ul li {
+        position: relative;
+        display: inline-block;
+        color: beige;
+        line-height: 50px;
+        margin-left: 15px;
+        font-family: sans-serif;
+        letter-spacing: -1px;
+        word-spacing: -2px;
+        font-size: 15px;
+    }
+
+    ul li:hover {
+        color: brown;
+    }
+
+    /* responsive nav bar*/
+    @media(max-width:400px) {
+        .main {
+            display: none;
+        }
+    }
+
+    .image1 {
+        width: 100%;
+        height: 600px;
+        position: relative;
+    }
+
+    .hero {
+        width: 100%;
+        height: 600px;
+        position: absolute;
+    }
+
+    .super {
+        position: absolute;
+        top: 140px;
+        color: rgb(255, 145, 0);
+        left: 300px;
+        font-size: 35px;
+        font-family: cursive;
+    }
+
+    .caketext2 {
+        position: absolute;
+        top: 210px;
+        left: 295px;
+        color: rgb(253, 251, 249);
+        font-size: 35px;
+        letter-spacing: -2px;
+        font-weight: 700;
+        font-family: sans-serif;
+        font-size: 60px;
+
+    }
+
+    .london {
+        position: absolute;
+        top: 290px;
+        left: 299px;
+        color: rgb(253, 251, 249);
+        font-size: 30px;
+        letter-spacing: -2px;
+        font-weight: 400;
+        font-family: sans-serif;
+
+    }
+
+    /*responsive image work*/
+    @media(max-width:400px) {
+        .image1 {
+            position: relative;
+            width: auto;
+        }
+
+        .hero {
+            width: 100%;
+            height: 400px;
+        }
+
+        .super {
+            position: absolute;
+            left: 110px;
+            font-size: 25px;
+            top: 80px;
+        }
+
+        .caketext2 {
+            position: absolute;
+            left: 105px;
+            top: 130px;
+            color: rgb(251, 246, 246);
+            font-size: 35px;
+            font-weight: 600;
+        }
+
+        .london {
+            position: absolute;
+            left: 55px;
+            font-size: 23px;
+            top: 180px;
+            font-weight: 600;
+        }
+    }
+
+    .button1 {
+        position: absolute;
+        width: 150px;
+        height: 50px;
+        background-color: rgb(255, 145, 0);
+        top: 380px;
+        left: 299px;
+    }
+
+    .frame {
+        width: 120px;
+        height: 30px;
+        background-color: rgb(255, 145, 0);
+        border: 1px solid white;
+        margin-left: 13px;
+        margin-top: 10px;
+        line-height: 30px;
+        text-align: center;
+        color: aliceblue;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .button1:hover {
+        background-color: black;
+    }
+
+    .frame:hover {
+        background-color: white;
+        color: rgb(255, 145, 0);
+    }
+
+    .vidio {
+        position: absolute;
+        top: 375px;
+        left: 500px;
+        width: 60px;
+        height: 60px;
+        background-color: rgb(237, 214, 214);
+        color: rgb(255, 145, 0);
+        border-radius: 60px;
+        border: 5px solid rgb(183, 181, 181);
+        font-size: 25px;
+    }
+
+    .play {
+        position: absolute;
+        left: 580px;
+        top: 395px;
+        color: rgb(251, 246, 246);
+        font-size: 20px;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .vidio:hover {
+        color: black;
+        cursor: grab;
+    }
+
+    /*responsiveness of image work of 2*/
+    @media (max-width:400px) {
+        .vidio {
+            position: absolute;
+            left: 250px;
+            top: 245px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+        }
+
+        .play {
+            display: none;
+        }
+
+        .button1 {
+            position: absolute;
+            left: 0px;
+            top: 250px;
+            left: 80px;
+            width: 120px;
+            height: 40px;
+        }
+
+        .button1:hover {
+            background-color: rgb(255, 145, 0);
+        }
+
+        .frame {
+            margin-left: 10px;
+            margin-top: 5px;
+            width: 100px;
+            height: 30px;
+        }
+    }
+
+    .whitebox {
+        position: relative;
+        width: 100%;
+        height: 650px;
+        background-color: rgb(243, 247, 247);
+    }
+
+    .about {
+        position: absolute;
+        color: rgb(255, 145, 0);
+        font-size: 30px;
+        font-family: cursive;
+        left: 750px;
+        top: 80px;
+    }
+
+    .well {
+        position: absolute;
+        top: 130px;
+        left: 550px;
+        color: rgb(21, 21, 21);
+        font-size: 35px;
+        letter-spacing: -2px;
+        word-spacing: -1px;
+        font-weight: 750;
+        font-family: sans-serif;
+        font-size: 45px;
+    }
+
+    .linesty {
+        border-bottom: 2px solid rgb(255, 145, 0);
+        width: 200px;
+        position: absolute;
+        top: 200px;
+        left: 700px;
+    }
+
+    .degine {
+        position: absolute;
+        width: 100px;
+        height: 10px;
+        background-color: rgb(255, 145, 0);
+        top: 196px;
+        left: 750px;
+    }
+
+    .aboutjpg {
+        position: absolute;
+        height: 380px;
+        bottom: 20px;
+        left: 300px;
+    }
+
+    .pera1 {
+        position: absolute;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        left: 700px;
+        top: 250px;
+        color: black;
+    }
+
+    .pera2 {
+        position: absolute;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        left: 700px;
+        top: 310px;
+        color: gray;
+    }
+
+    .heartbor {
+        height: 80px;
+        width: 80px;
+        border: 1px solid whitesmoke;
+        position: absolute;
+        top: 8px;
+        left: 8px;
+        font-size: 40px;
+        line-height: 80px;
+        text-align: center;
+        color: aliceblue;
+    }
+
+    .heartb {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(255, 145, 0);
+        position: absolute;
+        left: 700px;
+        top: 400px;
+    }
+
+    .healthy {
+        position: absolute;
+        left: 700px;
+        top: 520px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .healthy2 {
+        position: absolute;
+        left: 700px;
+        top: 550px;
+        color: grey;
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .heartc {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(255, 145, 0);
+        position: absolute;
+        left: 1000px;
+        top: 400px;
+    }
+
+    .heartpen {
+        height: 80px;
+        width: 80px;
+        border: 1px solid whitesmoke;
+        position: absolute;
+        top: 8px;
+        left: 8px;
+        font-size: 40px;
+        line-height: 80px;
+        text-align: center;
+        color: aliceblue;
+    }
+
+    .award {
+        position: absolute;
+        left: 1000px;
+        top: 520px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .award2 {
+        position: absolute;
+        left: 1000px;
+        top: 550px;
+        color: grey;
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    @media(max-width:400px) {
+        .whitebox {
+            width: 100%;
+            position: relative;
+            top: 0px;
+        }
+
+        .about {
+            position: absolute;
+            left: 110px;
+            top: -150px;
+        }
+
+        .well {
+            position: absolute;
+            left: 35px;
+            top: -100px;
+            font-size: 25px;
+        }
+
+        .linesty {
+            position: absolute;
+            left: 105px;
+            top: -40px;
+            width: 150px;
+        }
+
+        .degine {
+            position: absolute;
+            left: 132px;
+            top: -43px;
+        }
+
+        .aboutjpg {
+            position: absolute;
+            left: 0px;
+            top: 20px;
+            padding: 20px;
+        }
+
+        .pera1 {
+            position: absolute;
+            left: 0px;
+            top: 380px;
+            font-size: 15px;
+            padding: 20px;
+        }
+
+        .pera2 {
+            position: absolute;
+            left: -15px;
+            top: 430px;
+            padding: 40px;
+            font-size: 12px;
+        }
+
+        .heartb {
+            position: absolute;
+            left: 20px;
+            top: 580px;
+            width: 80px;
+            height: 80px;
+        }
+
+        .heartbor {
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+        }
+
+        .healthy {
+            position: absolute;
+            left: 20px;
+            top: 670px;
+            font-size: 15px;
+            font-weight: 700;
+        }
+
+        .healthy2 {
+            position: absolute;
+            left: 120px;
+            top: 600px;
+        }
+
+        .heartc {
+            position: absolute;
+            left: 20px;
+            top: 720px;
+            width: 80px;
+            height: 80px;
+        }
+
+        .heartpen {
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+        }
+
+        .award {
+            position: absolute;
+            left: 20px;
+            top: 810px;
+            font-size: 15px;
+        }
+
+        .award2 {
+            position: absolute;
+            left: 120px;
+            top: 730px;
+        }
+    }
+</style>
+
+<body>
+
+   <div class="start">
+        <p class="mail"><i class="fa-solid fa-envelope"></i> </p>
+        <p class="us">Email us</p>
+        <p class="info">info@gmail.com</p>
+        <div class="cakezone">
+            <div class="cakezone2">
+
+            </div>
+        </div>
+        <p class="logocake"><i class="fa-solid fa-cake-candles"></i></p>
+        <p class="caketext"> CAKEZONE</p>
+        <p class="phone"><i class="fa-solid fa-mobile-screen-button"></i></p>
+        <p class="callus"> Call Us</p>
+        <p class="phnumber"> +1255 4444 65</p>
+    </div>
+    <nav class="main">
+        <ul type="none">
+            <li>HOME</li>
+            <li>ABOUT US</li>
+            <li> MENU & PRICING</li>
+            <li>MASTER CHEFS</li>
+            <li> PAGES</li>
+            <li>CONTACT</li>
+        </ul>
+    </nav>
+
+
+    <div class="image1">
+        <img src="hero.jpg" class="hero">
+        <h1 class="super"> Super Crispy</h1>
+        <h1 class="caketext2"> CAKEZONE</h1>
+        <h2 class="london">THE BEST CAKE IN LONDON</h2>
+        <div class="button1">
+            <div class="frame" onclick="window.alert('hi,welcome to tasty world of cake')"> Read more</div>
+
+        </div>
+        <button class="vidio"><i class="fa-sharp fa-solid fa-play"></i></button>
+        <p class="play">Play video</p>
+    </div>
+
+    <div class="whitebox">
+        <h2 class="about">about us</h2>
+        <h1 class="well">WELCOME TO CAKEZONE</h1>
+        <p class="linesty"></p>
+        <div class="degine"></div>
+        <img src="about.jpg" class="aboutjpg">
+        <p class="pera1">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Ea,lorgff dgfdfdgg bahetwre
+            cake in baker </p>
+        <p class="pera2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque harumvolup <br>tates doloribus
+            sequi porro delectus iste repellat sunt nobis reprehend erit<br>.lorem fcnuj absoulute practivle nfj kh
+            corat nvjf jz</p>
+        <div class="heartb">
+            <p class="heartbor"><i class="fa-sharp fa-solid fa-heart-pulse"></i></p>
+        </div>
+        <p class="healthy">100% HEALTHY</p>
+        <p class="healthy2">Lorem, ipsum dolor sit amet<br> consectetur adipisicing elit.<br> Autem, recusandae.</p>
+        <div class="heartc">
+            <p class="heartpen"><i class="fa-sharp fa-solid fa-award"></i></p>
+        </div>
+        <p class="award">AWARD WINNING</p>
+        <p class="award2">Lorem, ipsum dolor sit amet<br> consectetur adipisicing elit.<br> Autem, recusandae.</p>
+    </div>
+
+    <div class="experience">
+
+        <div class="logowork">
+            <p class="logo1"><i class="fa-solid fa-star"
+                    style="margin-top: 20px; margin-left: 20px; width: 50px; height: 50px;color: white;"></i></p>
+            <p class="text1"> our experience</p>
+            <h1 class="number1">12345</h1>
+
+
+
+        </div>
+        <div class="logowork1">
+            <p class="logo2"><i class="fa-sharp fa-solid fa-people-group"
+                    style="margin-top: 20px; margin-left: 20px; width: 50px; height: 50px;color: white;"></i></p>
+            <p class="text2">cake specialist</p>
+            <h1 class="number2">12345</h1>
+        </div>
+
+        <div class="logowork2">
+            <p class="logo3"><i class="fa-solid fa-check"
+                    style="margin-top: 20px; margin-left: 20px; width: 50px; height: 50px;color: white;"></i></p>
+            <p class="text3"> complete project</p>
+            <h1 class="number3">1234</h1>
+        </div>
+
+        <div class="logowork3">
+            <p class="logo4"><i class="fa-sharp fa-solid fa-mug-hot"
+                    style="margin-top: 20px; margin-left: 20px; width: 50px; height: 50px;color: white;"></i></p>
+            <p class="text4">happy client</p>
+            <h1 class="number4">1234</h1>
+
+        </div>
+
+    </div>
+    <div class="prices">
+        <h1 class="menu">Menu & pricing</h1>
+        <h1 class="explore">EXPLORE ARE CAKE</h1>
+        <p class="linesty2"></p>
+        <div class="degine2"></div>
+        <div class="navi">
+            <div class="navi2">
+                <ul id="nav2">
+                    <li id="list2">birthday</li>
+                    <li id="list2">party</li>
+                    <li id="list2">wedding</li>
+                </ul>
+            </div>
+
+
+        </div>
+        <div class="lastwork">
+            <h1 class="special">special combo pack</h1>
+            <h1 class="super2">SUPER CRISPY CAKE</h1>
+            <p class="linesty3"></p>
+            <div class="degine3"></div>
+            <P class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate temporibus aliquid cum
+                voluptatum quidem quis voluptatem <br>sapiente voluptate consequuntur. Voluptates odit ad delectus illum,
+                vel id quae velit! Reprehenderit architecto accusantiumitaque<br> quisquam nostrum similique quos eligendi
+                debitis sapiente! Voluptatum laboriosam illum atque
+               <div class="creation"> <button class="shop" onclick="window.alert('thankyou for shopping')"> Shop now</button></div>
+              <div class="creation2"> <button class="shop2">Read more</button></div> 
+        </div>
+    </div>
+    <div class="final">
+        <h1 class="member">TEAM MEMBER</h1>
+        <h1 class="master">OUR MASTER CHEFS</h1>
+        <p class="linesty4"></p>
+        <div class="degine4"></div>
+        <img src="team-1.jpg" class="pic1">
+        <img src="team-3.jpg" class="pic2">
+        <img src="team-2.jpg"class="pic3">
+        <p class="name1">MASTER CHEFS</p>
+        <p class="name2">MASTER CHEFS</p>
+        <p class="name3">MASTER CHEFS</p>
+    </div>
+    <div class="workover">
+        <div class="stripb"></div>
+        <div class="orangebox"> <h4 class="ON"> CACKZONE</h4><div class="orangebox2"><p class="lorem5">Lorem ipsum dolor sit amet <br>consectetur adipisicing elit.<br> Earum ut ab volupt<br>atum eaque aliquam dolorem</p></div></div>
+       <p class="touchme">GET IN TOUCH</p>
+       <ul class="ulli" type="none">
+        <li class="logos"><i class="fa-brands fa-facebook fa-beat" style="color: #e47d07;"></i></li>
+        <li class="logos"><i class="fa-brands fa-square-instagram fa-beat" style="color: #e47d07;"></i></li>
+        <li class="logos"><i class="fa-brands fa-linkedin fa-beat" style="color: #e47d07;"></i></li>
+       </ul>
+       <p class="quick"> QUICK LINK</p>
+       <ul class="ulli2" type="none">
+        <li class="link23">home</li>
+        <li class="link23">about us</li>
+        <li class="link23">sevices</li>
+        <li class="link23">meet the team</li>
+        <li class="link23">our team</li>
+        <li class="link23">contact</li>
+       </ul>
+       <h3 class="letter">NEWS LETTER</h3>
+      <form class="input">
+        <input type="text" placeholder="EMAIL@mail.com" class="holder">
+      </form>
+      <div class="sine" onclick="window.alert('thankyou for sharing infomation')">sign up</div>
+      <P class="bhartiya">Site name , all write reserved pvt ltd owner bhartiya </P>
+
+    </div>
+   
+   
+   
+
+</body>
+
+</html>

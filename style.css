@@ -1,0 +1,520 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/*after welcome to cake zone coding of css*/
+.experience {
+    width: 100%;
+    height: 180px;
+    background-color: rgb(32, 29, 29);
+    position: relative;
+    top: -10px;
+}
+
+.logowork {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(255, 145, 0);
+    left: 295px;
+    top: 50px;
+}
+
+.logo1 {
+    height: 60px;
+    width: 60px;
+    border: 1px solid white;
+    margin-left: 3.5px;
+    margin-top: 3.5px;
+}
+
+.text1 {
+    position: absolute;
+    color: rgb(255, 145, 0);
+    left: 100px;
+    top: -5px;
+    font-weight: 500;
+}
+
+.number1 {
+    position: absolute;
+    color: rgb(244, 242, 240);
+    left: 95px;
+    top: 35px;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.logo1:hover {
+    background-color: rgb(20, 20, 20);
+}
+
+.logowork1 {
+    position: absolute;
+    left: 570px;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(255, 145, 0);
+    top: 50px;
+}
+
+.logo2 {
+    height: 60px;
+    width: 60px;
+    border: 1px solid white;
+    margin-left: 3.5px;
+    margin-top: 3.5px;
+}
+
+.text2 {
+    position: absolute;
+    color: rgb(255, 145, 0);
+    left: 100px;
+    top: -5px;
+    font-weight: 500;
+}
+
+.number2 {
+    position: absolute;
+    color: rgb(244, 242, 240);
+    left: 95px;
+    top: 35px;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.logo2:hover {
+    background-color: rgb(20, 20, 20);
+}
+
+
+.logowork2 {
+    position: absolute;
+    left: 830px;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(255, 145, 0);
+    top: 50px;
+}
+
+.logo3 {
+    height: 60px;
+    width: 60px;
+    border: 1px solid white;
+    margin-left: 3.5px;
+    margin-top: 3.5px;
+}
+
+.text3 {
+    position: absolute;
+    color: rgb(255, 145, 0);
+    left: 100px;
+    top: -5px;
+    font-weight: 500;
+}
+
+.number3 {
+    position: absolute;
+    color: rgb(244, 242, 240);
+    left: 95px;
+    top: 35px;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.logo3:hover {
+    background-color: rgb(20, 20, 20);
+}
+
+
+.logowork3 {
+    position: absolute;
+    left: 1100px;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(255, 145, 0);
+    top: 50px;
+}
+
+.logo4 {
+    height: 60px;
+    width: 60px;
+    border: 1px solid white;
+    margin-left: 3.5px;
+    margin-top: 3.5px;
+}
+
+.text4 {
+    position: absolute;
+    color: rgb(255, 145, 0);
+    left: 100px;
+    top: -5px;
+    font-weight: 500;
+}
+
+.number4 {
+    position: absolute;
+    color: rgb(244, 242, 240);
+    left: 95px;
+    top: 35px;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.logo4:hover {
+    background-color: rgb(20, 20, 20);
+}
+
+/*responsive of after cke zone coding*/
+@media(max-width:400px) {
+    .experience {
+        position: relative;
+        top: 200px;
+        height: 500px;
+    }
+
+    .logowork {
+        position: absolute;
+        left: 40px;
+    }
+
+    .logowork1 {
+        position: absolute;
+        left: 40px;
+        top: 160px;
+    }
+
+    .logowork2 {
+        position: absolute;
+        left: 40px;
+        top: 275px;
+    }
+
+    .logowork3 {
+        position: absolute;
+        left: 40px;
+        top: 390px;
+    }
+    .text2,.text1,.text3,.text4{margin-left: 100px;}
+    .number1,.number2,.number3,.number4{margin-left: 80px;}
+}
+
+.prices {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background-color: rgb(249, 246, 246);
+}
+
+.menu {
+    position: absolute;
+    color: rgb(255, 145, 0);
+    font-size: 30px;
+    font-family: cursive;
+    left: 700px;
+    top: 50px;
+}
+
+.explore {
+    font-size: 40px;
+    position: absolute;
+    left: 615px;
+    top: 100px;
+    word-spacing: -1px;
+    letter-spacing: -1px;
+}
+
+.linesty2 {
+    border-bottom: 2px solid rgb(255, 145, 0);
+    width: 200px;
+    position: absolute;
+    top: 160px;
+    left: 700px;
+}
+
+.degine2 {
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    background-color: rgb(255, 145, 0);
+    top: 156px;
+    left: 750px;
+}
+
+.navi {
+    position: absolute;
+    width: 270px;
+    height: 70px;
+    background-color: rgb(20, 20, 20);
+    left: 655px;
+    top: 180px;
+}
+
+#nav2 li {
+    display: inline-block;
+    color: white;
+    line-height: 50px;
+    margin-left: 20px;
+}
+
+.navi2 {
+    width: 250px;
+    height: 50px;
+    border: 2px solid white;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 1px solid white;
+}
+
+#nav2 li:hover {
+    background-color: rgb(255, 145, 0);
+}
+
+.lastwork {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(21, 20, 20);
+    position: absolute;
+    top: 300px;
+}
+
+.special {
+    position: absolute;
+    color: rgb(255, 145, 0);
+    font-size: 30px;
+    font-family: cursive;
+    left: 680px;
+    top: 20px;
+}
+
+.super2 {
+    font-size: 45px;
+    position: absolute;
+    left: 600px;
+    top: 80px;
+    word-spacing: -1px;
+    letter-spacing: -1px;
+    color: aliceblue;
+}
+
+.linesty3 {
+    border-bottom: 2px solid rgb(255, 145, 0);
+    width: 200px;
+    position: absolute;
+    top: 160px;
+    left: 730px;
+}
+
+.degine3 {
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    background-color: rgb(255, 145, 0);
+    top: 156px;
+    left: 780px;
+}
+
+.lorem {
+    position: absolute;
+    left: 440px;
+    color: white;
+    top: 200px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.creation {
+    width: 120px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 600px;
+    top: 300px;
+}
+
+.shop {
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    border: 2px solid wheat;
+}
+
+.creation2 {
+    width: 120px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 880px;
+    top: 300px;
+}
+
+.shop2 {
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    border: 2px solid wheat;
+}
+
+.shop:hover {
+    background-color: rgb(255, 145, 0)
+}
+
+.creation:hover {
+    background-color: rgb(255, 145, 0)
+}
+
+.shop2:hover {
+    background-color: rgb(255, 145, 0)
+}
+
+.creation2:hover {
+    background-color: rgb(255, 145, 0)
+}
+
+/* last responsi*/
+@media(max-width:400px) {
+    .prices {
+        position: relative;
+        top: 200px;
+        background-color: rgb(246, 246, 251);
+    }
+
+    .menu {
+        position: absolute;
+        left: 80px;
+        top: 20px;
+    }
+
+    .explore {
+        position: absolute;
+        left: 55px;
+        top: 80px;
+        font-size: 30px;
+        letter-spacing: -3PX;
+    }
+
+    .linesty2 {
+        position: absolute;
+        left: 80px;
+    }
+
+    .degine2 {
+        position: absolute;
+        left: 130px;
+    }
+
+    .navi {
+        position: absolute;
+        left: 50px;
+    }
+
+    .special {
+        position: absolute;
+        left: 100px;
+        font-size: 20px;
+    }
+
+    .super2 {
+        position: absolute;
+        left: 40px;
+        font-size: 30px;
+        top: 60px;
+    }
+
+    .linesty3 {
+        position: absolute;
+        left: 80px;
+        top: 120px;
+    }
+
+    .degine3 {
+        position: absolute;
+        left: 130px;
+        top: 115px;
+    }
+
+    .navi {
+        position: absolute;
+        left: 45px;
+    }
+
+    .lorem {
+        display: none;
+    }
+
+    .creation {
+        position: absolute;
+        left: 120px;
+        top: 170px;
+    }
+
+    .creation2 {
+        position: absolute;
+        left: 120px;
+    }
+}
+.final{width: 100%; height: 600px; background-color: rgb(246, 250, 248); position: relative; top: -95px;}
+.member{ position: absolute;
+    color: rgb(255, 145, 0);
+    font-size: 30px;
+    font-family: cursive;
+    left: 700px;
+    top: 50px;}
+    .master{  font-size: 40px;
+        position: absolute;
+        left: 615px;
+        top: 100px;
+        word-spacing: -1px;
+        letter-spacing: -1px;}
+        .pic1{width: 300px;height: 400px; position: absolute; left: 200px;top: 200px;}
+        .pic2{width: 300px;height: 400px; position: absolute; left: 600px;top: 200px;}
+        .pic3{width: 300px;height: 400px; position: absolute; left: 1000px;top: 200px;}
+        .linesty4 {
+            border-bottom: 2px solid rgb(255, 145, 0);
+            width: 200px;
+            position: absolute;
+            top: 160px;
+            left: 700px;
+        }
+        
+        .degine4 {
+            position: absolute;
+            width: 100px;
+            height: 10px;
+            background-color: rgb(255, 145, 0);
+            top: 156px;
+            left: 750px;
+        }
+        .name1{position: absolute; font-size: 30px; font-family: Arial, Helvetica, sans-serif; left: 230PX; top: 600px;}
+        .name2{position: absolute; font-size: 30px; font-family: Arial, Helvetica, sans-serif; left: 630PX; top: 600px;}
+        .name3{position: absolute; font-size: 30px; font-family: Arial, Helvetica, sans-serif; left: 1030PX; top: 600px;}
+        @media(max-width:400px){.final{position: relative; top: 100px; background-color: rgb(246, 244, 241); height: 1300px;} .member{position: absolute; left: 80px; top: 0px;} .master{position: absolute; left: 45px; font-size: 30px; top: 50px;} 
+    .degine4{position: absolute; left: 140px; top: 95px;} .linesty4{position: absolute; left: 90px; top:100px ;}.pic1{position: absolute; left: 90px; top:115px ; width: 200px; height: 300px;}.name1{position: absolute; left: 70px;  font-size: 30px; top:420px ;}.pic2{position: absolute; left: 90px; top:500px ; width: 200px; height: 300px;}.name2{position: absolute; left: 70px;  font-size: 30px; top:810px ;}.pic3{position: absolute; left: 90px; top:880px ; width: 200px; height: 300px;}.name3{position: absolute; left: 70px;  font-size: 30px; top:1200px ;}}
+
+
+    .workover{position: relative; width: 100%; height: 320px; background-color: rgb(33, 30, 30);}
+    .stripb{position: absolute; width: 100%; height: 50px; background-color: black; bottom: 0px;}
+    .orangebox{height: 200px; width: 200px; background-color: rgb(255, 145, 0) ;position: absolute;left: 300px;}
+    .orangebox2{height: 180px; width: 180px;border: 1px solid white; margin-left: 10px; margin-top: 10px; }
+    .lorem5{margin-top: 60px;}
+    .touchme{position: absolute; color:  rgb(255, 145, 0); font-size: 17px; left: 550px; top: 30px;}
+    .ulli{position: absolute; left: 580px; top: 60px;}
+    .logos{margin-top: 20px; font-size: 30px;}
+    .quick{position: absolute; color:  rgb(255, 145, 0); font-size: 17px; left: 750px; top: 30px;}
+    .ulli2{position: absolute; left: 780px; top: 50px;}
+    .link23{margin-top: 10px; font-size: 15px; color: rgb(255, 145, 0) ;}
+    .letter{position: absolute; color:  rgb(255, 145, 0); font-size: 25px; left: 1050px; top: 30px;}
+    .input{position: absolute; left: 1050px; top: 130px; }
+    .holder{height: 40px; width: 220px;}
+    .sine{width: 70px; height: 40px; background-color: rgb(255, 145, 0) ; color: white; line-height: 40px;position: absolute; left: 1250px; top: 130px; text-align: center;}
+    .ON{position: absolute; color: rgb(244, 242, 239) ; font-size: 25PX; top: 20PX; left: 25PX;}
+    .bhartiya{position: absolute; color: aliceblue; bottom: 15px; left: 600px;}
+    @media(max-width:400px){.workover{position: relative; height: 730px;} .stripb{position: absolute; left: 0px;} .orangebox{position: absolute; left:85px; } .lorem5{position: absolute; left: 20px; font-size: 14px;}.touchme{position: absolute;left: 130px; top: 220px;}.ulli{position: absolute; left: 65px; top: 240px;display: flex;}.logos{margin-left: 40px;}.quick{position: absolute; left: 135px; top: 310px;} .ulli2{position: absolute; left: 160px; top: 350px;}.letter{position: absolute; left: 100px; top: 530px; }.input{position: absolute; left: 75px; top:570px ;}.holder{position: absolute; left: 0px; border-radius: 10px;}.sine{position: absolute; left: 150px; top: 620px;border-radius: 10px;} .bhartiya{position: absolute; left: 20px;}.pic1,.pic2,.pic3{width: 300px; left: 40px;}.pic3{margin-bottom: 50px;}}
+    .holder::placeholder{margin-left: 50px;}
